@@ -16,7 +16,7 @@ int main () {
 	printf("Digite Sua Terceira Nota:");
 	scanf("%f", &n3);
 
-		media= (n1+n2+n3)/3;
+	media= (n1+n2+n3)/3;
 	
 	printf("O Valor calculado da medida entre os números %f, %f e %f:\n", n1, n2, n3);
 	
