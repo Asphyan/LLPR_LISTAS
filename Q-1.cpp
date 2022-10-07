@@ -7,7 +7,7 @@ int main () {
 	
 	float n1, n2, n3 ,soma, media;
 	
-	printf("Calculadora de Média\n\n");
+	printf("Calculadora de MÃ©dia\n\n");
 	
 	printf("Digite Sua Primeira Nota:");
 	scanf("%f", &n1);
@@ -16,12 +16,12 @@ int main () {
 	printf("Digite Sua Terceira Nota:");
 	scanf("%f", &n3);
 	
-    soma= n1+n2+n3;
+    	soma= n1+n2+n3;
 	media= soma/3;
 	
-	printf("O Valor calculado da medida entre os números %f, %f e %f:\n", n1, n2, n3);
+	printf("O Valor calculado da medida entre os nÃºmeros %f, %f e %f:\n", n1, n2, n3);
 	
-	printf("Sua Média Foi: %f\n", media);
+	printf("Sua MÃ©dia Foi: %f\n", media);
 	
 	return 0;
 }
