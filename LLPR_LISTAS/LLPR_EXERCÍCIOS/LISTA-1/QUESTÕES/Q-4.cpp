@@ -7,20 +7,20 @@ int main () {
 	
 	float n1, n2, n3, n4, produto;
 	
-	printf("Produto da Multiplicação de 4 Números\n\n");
+	printf("Produto da MultiplicaÃ§Ã£o de 4 NÃºmeros\n\n");
 	
-	printf("Digite Seu Primeiro Número:");
+	printf("Digite Seu Primeiro NÃºmero:");
 	scanf("%f", &n1);
-	printf("Digite Seu Segundo Número:");
+	printf("Digite Seu Segundo NÃºmero:");
 	scanf("%f", &n2);
-	printf("Digite Seu Terceiro Número:");
+	printf("Digite Seu Terceiro NÃºmero:");
 	scanf("%f", &n3);
-	printf("Digite Seu Quarto Número:");
+	printf("Digite Seu Quarto NÃºmero:");
 	scanf("%f", &n4);
 
 	produto= n1*n2*n3*n4;
 	
-	printf("O produto da multiplicação entre os números %f, %f, %f e %f:\n", n1, n2, n3, n4);
+	printf("O produto da multiplicaÃ§Ã£o entre os nÃºmeros %f, %f, %f e %f:\n", n1, n2, n3, n4);
 	
 	printf("Seu Produto Foi: %.0f\n", produto);
 	
